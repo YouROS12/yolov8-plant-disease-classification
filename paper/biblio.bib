@@ -1,0 +1,1011 @@
+% ===========================================================================
+% Bibliography - Plant Disease Classification with ROM
+% ===========================================================================
+
+% ---- Foundational DL / CNN architectures ----
+
+@article{krizhevsky2012imagenet,
+  title={Imagenet classification with deep convolutional neural networks},
+  author={Krizhevsky, Alex and Sutskever, Ilya and Hinton, Geoffrey E},
+  journal={Advances in neural information processing systems},
+  volume={25},
+  year={2012}
+}
+
+@article{simonyan2014very,
+  title={Very deep convolutional networks for large-scale image recognition},
+  author={Simonyan, Karen and Zisserman, Andrew},
+  journal={arXiv preprint arXiv:1409.1556},
+  year={2014}
+}
+
+@inproceedings{he2016deep,
+  title={Deep residual learning for image recognition},
+  author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={770--778},
+  year={2016}
+}
+
+@inproceedings{huang2017densely,
+  title={Densely connected convolutional networks},
+  author={Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={4700--4708},
+  year={2017}
+}
+
+@inproceedings{tan2019efficientnet,
+  title={EfficientNet: Rethinking model scaling for convolutional neural networks},
+  author={Tan, Mingxin and Le, Quoc V},
+  booktitle={Proceedings of the 36th International Conference on Machine Learning},
+  pages={6105--6114},
+  year={2019}
+}
+
+
+@misc{dosovitskiy2021imageworth16x16words,
+      title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale}, 
+      author={Alexey Dosovitskiy and Lucas Beyer and Alexander Kolesnikov and Dirk Weissenborn and Xiaohua Zhai and Thomas Unterthiner and Mostafa Dehghani and Matthias Minderer and Georg Heigold and Sylvain Gelly and Jakob Uszkoreit and Neil Houlsby},
+      year={2021},
+      eprint={2010.11929},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2010.11929}, 
+}
+
+@article{lecun1998gradient,
+  title={Gradient-based learning applied to document recognition},
+  author={LeCun, Yann and Bottou, Leon and Bengio, Yoshua and Haffner, Patrick},
+  journal={Proceedings of the IEEE},
+  volume={86},
+  number={11},
+  pages={2278--2324},
+  year={1998},
+  publisher={IEEE}
+}
+
+@article{schmidhuber2015deep,
+  title={Deep learning in neural networks: An overview},
+  author={Schmidhuber, Juergen},
+  journal={Neural Networks},
+  volume={61},
+  pages={85--117},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{alzubaidi2021review,
+  title={Review of deep learning: concepts, CNN architectures, challenges, applications, future directions},
+  author={Alzubaidi, Laith and Zhang, Jinglan and Humaidi, Amjad J and Al-Dujaili, Ayad and Duan, Ye and Al-Shamma, Omran and Santamaria, Jose and Fadhel, Mohammed A and Al-Amidie, Muthana and Farhan, Laith},
+  journal={Journal of Big Data},
+  volume={8},
+  number={1},
+  pages={53},
+  year={2021},
+  publisher={Springer}
+}
+
+% ---- YOLO family ----
+
+@inproceedings{redmon2016you,
+  title={You only look once: Unified, real-time object detection},
+  author={Redmon, Joseph and Divvala, Santosh and Girshick, Ross and Farhadi, Ali},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  pages={779--788},
+  year={2016}
+}
+
+@misc{jocher2023ultralytics,
+  title={Ultralytics {YOLOv8}},
+  author={Jocher, Glenn and Chaurasia, Ayush and Qiu, Jing},
+  year={2023},
+  howpublished={\url{https://github.com/ultralytics/ultralytics}},
+  note={Version 8.0}
+}
+
+% ---- ImageNet / COCO benchmarks ----
+
+@article{russakovsky2015imagenet,
+  title={ImageNet large scale visual recognition challenge},
+  author={Russakovsky, Olga and Deng, Jia and Su, Hao and Krause, Jonathan and Satheesh, Sanjeev and Ma, Sean and Huang, Zhiheng and Karpathy, Andrej and Khosla, Aditya and Bernstein, Michael and others},
+  journal={International Journal of Computer Vision},
+  volume={115},
+  number={3},
+  pages={211--252},
+  year={2015},
+  publisher={Springer}
+}
+
+@inproceedings{lin2014microsoft,
+  title={Microsoft {COCO}: Common objects in context},
+  author={Lin, Tsung-Yi and Maire, Michael and Belongie, Serge and Hays, James and Perona, Pietro and Ramanan, Deva and Dollar, Piotr and Zitnick, C Lawrence},
+  booktitle={European Conference on Computer Vision},
+  pages={740--755},
+  year={2014},
+  publisher={Springer}
+}
+
+% ---- Dimensionality reduction / PCA / SVD ----
+
+@book{jolliffe2002principal,
+  title={Principal Component Analysis},
+  author={Jolliffe, Ian T},
+  edition={2nd},
+  year={2002},
+  publisher={Springer},
+  address={New York}
+}
+
+@article{halko2011finding,
+  title={Finding structure with randomness: Probabilistic algorithms for constructing approximate matrix decompositions},
+  author={Halko, Nathan and Martinsson, Per-Gunnar and Tropp, Joel A},
+  journal={SIAM Review},
+  volume={53},
+  number={2},
+  pages={217--288},
+  year={2011},
+  publisher={SIAM}
+}
+
+@article{ross2008incremental,
+  title={Incremental learning for robust visual tracking},
+  author={Ross, David A and Lim, Jongwoo and Lin, Ruei-Sung and Yang, Ming-Hsuan},
+  journal={International Journal of Computer Vision},
+  volume={77},
+  number={1-3},
+  pages={125--141},
+  year={2008},
+  publisher={Springer}
+}
+
+% ---- Support Vector Machines ----
+
+@article{cortes1995support,
+  title={Support-vector networks},
+  author={Cortes, Corinna and Vapnik, Vladimir},
+  journal={Machine Learning},
+  volume={20},
+  number={3},
+  pages={273--297},
+  year={1995},
+  publisher={Springer}
+}
+
+@book{vapnik1995nature,
+  title={The Nature of Statistical Learning Theory},
+  author={Vapnik, Vladimir N},
+  year={1995},
+  publisher={Springer},
+  address={New York}
+}
+
+@book{scholkopf2002learning,
+  title={Learning with Kernels: Support Vector Machines, Regularization, Optimization, and Beyond},
+  author={Scholkopf, Bernhard and Smola, Alexander J},
+  year={2002},
+  publisher={MIT Press},
+  address={Cambridge, MA}
+}
+
+% ---- Scikit-learn ----
+
+@article{pedregosa2011scikit,
+  title={Scikit-learn: Machine learning in {Python}},
+  author={Pedregosa, Fabian and Varoquaux, Gael and Gramfort, Alexandre and Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and Dubourg, Vincent and others},
+  journal={Journal of Machine Learning Research},
+  volume={12},
+  pages={2825--2830},
+  year={2011}
+}
+
+% ---- Transfer learning / feature extraction ----
+
+@inproceedings{sharif2014cnn,
+  title={{CNN} features off-the-shelf: An astounding baseline for recognition},
+  author={Sharif Razavian, Ali and Azizpour, Hossein and Sullivan, Josephine and Carlsson, Stefan},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={806--813},
+  year={2014}
+}
+
+@article{yosinski2014transferable,
+  title={How transferable are features in deep neural networks?},
+  author={Yosinski, Jason and Clune, Jeff and Bengio, Yoshua and Lipson, Hod},
+  journal={Advances in Neural Information Processing Systems},
+  volume={27},
+  year={2014}
+}
+
+@article{wei2021fine,
+  title={Fine-grained image analysis with deep learning: A survey},
+  author={Wei, Xiu-Shen and Song, Yi-Zhe and Mac Aodha, Oisin and Wu, Jianxin and Peng, Yuxin and Tang, Jinhui and Yang, Jian and Belongie, Serge},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume={44},
+  number={12},
+  pages={8927--8948},
+  year={2021},
+  publisher={IEEE}
+}
+
+% ---- Plant disease datasets ----
+
+@article{hughes2015open,
+  title={An open access repository of images on plant health to enable the development of mobile disease diagnostics},
+  author={Hughes, David and Salathe, Marcel},
+  journal={arXiv preprint arXiv:1511.08060},
+  year={2015}
+}
+
+
+@misc{wei2024benchmarkinginthewildmultimodaldisease,
+      title={Benchmarking In-the-wild Multimodal Disease Recognition and A Versatile Baseline}, 
+      author={Tianqi Wei and Zhi Chen and Zi Huang and Xin Yu},
+      year={2024},
+      eprint={2408.03120},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2408.03120}, 
+}
+
+@inproceedings{Singh_2020,
+  title={PlantDoc: A Dataset for Visual Plant Disease Detection},
+  author={Singh, Davinder and Jain, Naman and Jain, Pranjali and Kayal, Pratik and Kumawat, Sudhakar and Batra, Nipun},
+  booktitle={Proceedings of the 7th ACM IKDD CoDS and 25th COMAD},
+  pages={249--253},
+  year={2020},
+  publisher={ACM}
+}
+
+@article{thapa2020plant,
+  title={The Plant Pathology Challenge 2020 data set to classify foliar disease of apples},
+  author={Thapa, Ranjita and Zhang, Kai and Snavely, Noah and Belongie, Serge and Khan, Awais},
+  journal={Applications in Plant Sciences},
+  volume={8},
+  number={9},
+  pages={e11390},
+  year={2020},
+  publisher={Wiley}
+}
+
+@article{fenu2021using,
+  title={Using multioutput learning to diagnose plant disease and stress severity},
+  author={Fenu, Gianni and Malloci, Francesca Maridina},
+  journal={Complexity},
+  volume={2021},
+  pages={1--11},
+  year={2021},
+  publisher={Hindawi}
+}
+
+@article{krohling2019bracol,
+  title={{BRACOL} -- a Brazilian Arabica Coffee Leaf images dataset to identification and quantification of coffee diseases and pests},
+  author={Krohling, Renato A and Esgario, Jose and Ventura, Jose A},
+  journal={Mendeley Data},
+  volume={1},
+  year={2019}
+}
+
+@article{parraga2019rocole,
+  title={{RoCoLe}: A robusta coffee leaf images dataset for evaluation of machine learning based methods in plant diseases recognition},
+  author={Parraga-Alava, Jorge and Cusme, Kevin and Loor, Angelica and Santander, Esneider},
+  journal={Data in Brief},
+  volume={25},
+  pages={104414},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{prajapati2017detection,
+  title={Detection and classification of rice plant diseases},
+  author={Prajapati, Harshadkumar B and Shah, Jitesh P and Dabhi, Vipul K},
+  journal={Intelligent Decision Technologies},
+  volume={11},
+  number={3},
+  pages={357--373},
+  year={2017},
+  publisher={IOS Press}
+}
+
+@article{rauf2019citrus,
+  title={A citrus fruits and leaves dataset for detection and classification of citrus diseases through machine learning},
+  author={Rauf, Hafiz Tayyab and Saleem, Basharat Ali and Lali, M Ikram Ullah and Khan, Muhammad Attique and Sharif, Muhammad and Bukhari, Syed Ahmad Chan},
+  journal={Data in Brief},
+  volume={26},
+  pages={104340},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{liu2021plantdiseaserecognition,
+  title={Plant Disease Recognition: A Large-Scale Benchmark Dataset and a Visual Region and Loss Reweighting Approach},
+  author={Liu, Xinda and Min, Weiqing and Mei, Shuhuan and Wang, Lili and Jiang, Shuqiang},
+  journal={IEEE Transactions on Image Processing},
+  volume={30},
+  pages={2003--2015},
+  year={2021}
+}
+
+% ---- Plant disease detection reviews ----
+
+@article{barbedo2016review,
+  title={A review on the main challenges in automatic plant disease identification based on visible range images},
+  author={Barbedo, Jayme Garcia Arnal},
+  journal={Biosystems Engineering},
+  volume={144},
+  pages={52--60},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{barbedo2019plant,
+  title={Plant disease identification from individual lesions and spots using deep learning},
+  author={Barbedo, Jayme Garcia Arnal},
+  journal={Biosystems Engineering},
+  volume={180},
+  pages={96--107},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{mohanty2016using,
+  title={Using deep learning for image-based plant disease detection},
+  author={Mohanty, Sharada P and Hughes, David P and Salathe, Marcel},
+  journal={Frontiers in Plant Science},
+  volume={7},
+  pages={1419},
+  year={2016},
+  publisher={Frontiers}
+}
+
+@article{ferentinos2018deep,
+  title={Deep learning models for plant disease detection and diagnosis},
+  author={Ferentinos, Konstantinos P},
+  journal={Computers and Electronics in Agriculture},
+  volume={145},
+  pages={311--318},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{too2019comparative,
+  title={A comparative study of fine-tuning deep learning models for plant disease identification},
+  author={Too, Edna Chebet and Yujian, Li and Njuki, Sam and Yingchun, Liu},
+  journal={Computers and Electronics in Agriculture},
+  volume={161},
+  pages={272--279},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{noyan2022uncovering,
+  title={Uncovering bias in the {PlantVillage} dataset},
+  author={Noyan, Mehmet Alican},
+  journal={arXiv preprint arXiv:2206.04374},
+  year={2022}
+}
+
+@article{lu2021reviewonconvolutional,
+  title={Review on Convolutional Neural Network ({CNN}) Applied to Plant Leaf Disease Classification},
+  author={Lu, Jinzhu and Tan, Lijuan and Jiang, Huanyu},
+  journal={Agriculture},
+  volume={11},
+  number={8},
+  pages={707},
+  year={2021},
+  publisher={MDPI}
+}
+
+@article{liu2021plantdiseasesand,
+  title={Plant diseases and pests detection based on deep learning: A review},
+  author={Liu, Jun and Wang, Xuewei},
+  journal={Plant Methods},
+  volume={17},
+  number={1},
+  pages={1--18},
+  year={2021},
+  publisher={Springer}
+}
+
+@article{shoaib2023anadvanceddeep,
+  title={An advanced deep learning models-based plant disease detection: A review of recent research},
+  author={Shoaib, Muhammad and Shah, Babar and EI-Sappagh, Shaker and Ali, Akhtar and Ullah, Asad and Alenezi, Fayadh and Gechev, Tsanko and Hussain, Tariq and Ali, Farman},
+  journal={Frontiers in Plant Science},
+  volume={14},
+  pages={1158933},
+  year={2023},
+  publisher={Frontiers}
+}
+
+@article{jafar2024revolutionizingagriculturewith,
+  title={Revolutionizing agriculture with artificial intelligence: plant disease detection methods, applications, and their limitations},
+  author={Jafar, Abbas and Bibi, Nabila and Naqvi, Rizwan Ali and Sadeghi-Niaraki, Abolghasem and Jeong, Daesik},
+  journal={Frontiers in Plant Science},
+  volume={15},
+  pages={1356260},
+  year={2024},
+  publisher={Frontiers}
+}
+
+@article{demilie2024plantdiseasedetection,
+  title={Plant disease detection and classification techniques: A comparative study of the performances},
+  author={Demilie, Wubetu Barud},
+  journal={Journal of Big Data},
+  volume={11},
+  number={1},
+  pages={1--43},
+  year={2024},
+  publisher={Springer}
+}
+
+@article{c2022acomprehensivereview,
+  title={A comprehensive review on detection of plant disease using machine learning and deep learning approaches},
+  author={C, Jackulin and Murugavalli, S},
+  journal={Measurement: Sensors},
+  volume={24},
+  pages={100441},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{dhaka2021asurveyof,
+  title={A Survey of Deep Convolutional Neural Networks Applied for Prediction of Plant Leaf Diseases},
+  author={Dhaka, Vijaypal Singh and Meena, Sangeeta Vaibhav and Rani, Geeta and Sinwar, Deepak and Kavita, Kavita and Ijaz, Muhammad Fazal and Wozniak, Marcin},
+  journal={Sensors},
+  volume={21},
+  number={14},
+  pages={4749},
+  year={2021},
+  publisher={MDPI}
+}
+
+@article{hassan2021identificationofplantleaf,
+  title={Identification of Plant-Leaf Diseases Using {CNN} and Transfer-Learning Approach},
+  author={Hassan, S M and Maji, Arnab Kumar and Jasinski, M and Leonowicz, Zbigniew and Jasinska, E},
+  journal={Electronics},
+  volume={10},
+  number={12},
+  pages={1388},
+  year={2021},
+  publisher={MDPI}
+}
+
+% ---- Plant disease specific methods ----
+
+@article{albattah2022anoveldeep,
+  title={A novel deep learning method for detection and classification of plant diseases},
+  author={Albattah, Waleed and Nawaz, Marriam and Javed, Ali and Masood, Momina and Albahli, Saleh},
+  journal={Complex and Intelligent Systems},
+  volume={8},
+  number={1},
+  pages={507--524},
+  year={2022},
+  publisher={Springer}
+}
+
+@article{islam2022multimodalhybriddeep,
+  title={Multimodal Hybrid Deep Learning Approach to Detect Tomato Leaf Disease Using Attention Based Dilated Convolution Feature Extractor with Logistic Regression Classification},
+  author={Islam, M and Sultana, Sunjida and Farid, Fahmid Al and Islam, Md Nahidul and Rashid, Mamunur and Bari, Bifta Sama and Hashim, N and Husen, Mohd Nizam},
+  journal={Sensors},
+  volume={22},
+  number={16},
+  pages={6079},
+  year={2022},
+  publisher={MDPI}
+}
+
+@article{sahu2023optimal,
+  title={An optimal hybrid multiclass {SVM} for plant leaf disease detection using spatial Fuzzy C-Means model},
+  author={Sahu, Santosh Kumar and Pandey, Manish},
+  journal={Expert Systems with Applications},
+  volume={214},
+  pages={118989},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{bedi2021plant,
+  title={Plant disease detection using hybrid model based on convolutional autoencoder and convolutional neural network},
+  author={Bedi, Punam and Gole, Pushkar},
+  journal={Artificial Intelligence in Agriculture},
+  volume={5},
+  pages={90--101},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{el2023novel,
+  title={A novel approach for image-based olive leaf diseases classification using a deep hybrid model},
+  author={El Akhal, Hicham and Yahya, Aissa Ben and Moussa, Noureddine and El Alaoui, Abdelbaki El Belrhiti},
+  journal={Ecological Informatics},
+  volume={77},
+  pages={102276},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{bouacida2024innovative,
+  title={Innovative deep learning approach for cross-crop plant disease detection: A generalized method for identifying unhealthy leaves},
+  author={Bouacida, Imane and Farou, Brahim and Djakhdjakha, Lynda and Seridi, Hamid and Kurulay, Muhammet},
+  journal={Information Processing in Agriculture},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{oppenheim2019using,
+  title={Using deep learning for image-based potato tuber disease detection},
+  author={Oppenheim, Dor and Shani, Guy and Erlich, Orly and Tsror, Leah},
+  journal={Phytopathology},
+  volume={109},
+  number={6},
+  pages={1083--1087},
+  year={2019},
+  publisher={Am Phytopath Society}
+}
+
+@article{sharma2024csxai,
+  title={{CSXAI}: A lightweight 2D {CNN-SVM} model for detection and classification of various crop diseases with explainable {AI} visualization},
+  author={Sharma, Shubham and Verma, Vartika and Khichi, Ritika},
+  journal={Frontiers in Plant Science},
+  volume={15},
+  pages={1412988},
+  year={2024},
+  publisher={Frontiers}
+}
+
+@article{alqahtani2023improved,
+  title={An improved deep learning approach for localization and recognition of plant leaf diseases},
+  author={Alqahtani, Yahya and Nawaz, Marriam and Nazir, Tahira and Javed, Ali and Jeribi, Fathe and Tahir, Ali},
+  journal={Expert Systems with Applications},
+  volume={230},
+  pages={120717},
+  year={2023},
+  publisher={Elsevier}
+}
+
+% ---- YOLO for plant disease ----
+
+@article{pan2023xooyoloadetection,
+  title={{Xoo-YOLO}: A detection method for wild rice bacterial blight in the field from the perspective of unmanned aerial vehicles},
+  author={Pan, Pan and Guo, Wenlong and Zheng, Xiaoming and Hu, Lin and Zhou, Guomin and Zhang, Jianhua},
+  journal={Frontiers in Plant Science},
+  volume={14},
+  pages={1093285},
+  year={2023},
+  publisher={Frontiers}
+}
+
+@article{frontiersSerpensGateYOLOv8,
+  title={{SerpensGate-YOLOv8}: An enhanced {YOLOv8} model for accurate plant disease detection},
+  author={Miao, Yongzheng and Meng, Wei and Zhou, Xiaoyu},
+  journal={Frontiers in Plant Science},
+  volume={15},
+  pages={1514832},
+  year={2024},
+  publisher={Frontiers}
+}
+
+@article{li2022plant,
+  title={Plant Disease Recognition Model Based on Improved {YOLOv5}},
+  author={Li, Jun and Su, Zhen-Tao and Geng, Jin-Pei and Wang, Hui-Xia and Zhao, Yan-Chao},
+  journal={Agronomy},
+  volume={12},
+  number={2},
+  pages={365},
+  year={2022},
+  publisher={MDPI}
+}
+
+% ---- Lab vs field, domain adaptation ----
+
+@article{wu2023fromlaboratoryto,
+  title={From Laboratory to Field: Unsupervised Domain Adaptation for Plant Disease Recognition in the Wild},
+  author={Wu, Xinlu and Fan, Xijian and Luo, Peng and Choudhury, Sruti Das and Tjahjadi, Tardi and Hu, Chunhua},
+  journal={Plant Phenomics},
+  volume={5},
+  pages={0038},
+  year={2023},
+  publisher={AAAS}
+}
+
+@article{xu2023embracinglimitedand,
+  title={Embracing limited and imperfect training datasets: Opportunities and challenges in plant disease recognition using deep learning},
+  author={Xu, Mingle and Kim, Hyongsuk and Yang, Jucheng and Fuentes, Alvaro and Meng, Yao and Yoon, Sook and Kim, Taehyun and Park, Dong Sun},
+  journal={Frontiers in Plant Science},
+  volume={14},
+  pages={1225409},
+  year={2023},
+  publisher={Frontiers}
+}
+
+@article{richter2025assessingtheperformance,
+  title={Assessing the performance of domain-specific models for plant leaf disease classification: A comprehensive benchmark of transfer-learning on open datasets},
+  author={Richter, David J and Kim, Kyungbaek},
+  journal={Scientific Reports},
+  volume={15},
+  year={2025},
+  publisher={Springer Nature}
+}
+
+@article{salman2025plantdiseaseclassification,
+  title={Plant disease classification in the wild using vision transformers and mixture of experts},
+  author={Salman, Zafar and Muhammad, Abdullah and Han, Dongil},
+  journal={Frontiers in Plant Science},
+  volume={16},
+  year={2025},
+  publisher={Frontiers}
+}
+
+% ---- Resource-constrained / Edge AI ----
+
+@article{nyakuri2025aiandiotpowered,
+  title={{AI} and {IoT}-powered edge device optimized for crop pest and disease detection},
+  author={Nyakuri, Jean Pierre and Nkundineza, Celestin and Gatera, Omar and Nkurikiyeyezu, Kizito and Mwitende, Gervais},
+  journal={Scientific Reports},
+  volume={15},
+  year={2025},
+  publisher={Springer Nature}
+}
+
+@article{bhavani2026lightweightscalabledeep,
+  title={Lightweight scalable deep learning framework for real time detection of potato leaf diseases},
+  author={Bhavani, Girigula Durga and Chalapathi, Mukkoti Maruthi Venkata},
+  journal={Scientific Reports},
+  year={2026},
+  publisher={Springer Nature}
+}
+
+% ---- Data annotation ----
+
+@article{mullins2024leveragingzeroshotdetection,
+  title={Leveraging Zero-Shot Detection Mechanisms to Accelerate Image Annotation for Machine Learning in Wild Blueberry},
+  author={Mullins, Connor C and Esau, Travis J and Zaman, Qamar U and Toombs, Chloe L and Hennessy, Patrick J},
+  journal={Agronomy},
+  volume={14},
+  pages={2830},
+  year={2024},
+  publisher={MDPI}
+}
+
+@article{mullins2025enhancedimageannotation,
+  title={Enhanced Image Annotation in Wild Blueberry Fields Using Sequential Zero-Shot Detection and Segmentation Models},
+  author={Mullins, Connor C and Esau, Travis J and Johnstone, Riley and Toombs, Chloe L and Hennessy, Patrick J},
+  journal={Sensors},
+  volume={25},
+  pages={7325},
+  year={2025},
+  publisher={MDPI}
+}
+
+% ---- Ensemble methods ----
+
+@article{sahin2020assessing,
+  title={Assessing the predictive capability of ensemble tree methods for landslide susceptibility mapping using {XGBoost}, gradient boosting machine, and random forest},
+  author={Sahin, Emrehan Kutlug},
+  journal={SN Applied Sciences},
+  volume={2},
+  number={7},
+  pages={1308},
+  year={2020},
+  publisher={Springer}
+}
+
+@inproceedings{chen2016xgboost,
+  title={{XGBoost}: A scalable tree boosting system},
+  author={Chen, Tianqi and Guestrin, Carlos},
+  booktitle={Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+  pages={785--794},
+  year={2016},
+  publisher={ACM}
+}
+
+@article{breiman2001random,
+  title={Random forests},
+  author={Breiman, Leo},
+  journal={Machine Learning},
+  volume={45},
+  number={1},
+  pages={5--32},
+  year={2001},
+  publisher={Springer}
+}
+
+% ---- Agriculture / food security ----
+
+@article{tilman2011global,
+  title={Global food demand and the sustainable intensification of agriculture},
+  author={Tilman, David and Balzer, Christian and Hill, Jason and Befort, Belinda L},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={108},
+  number={50},
+  pages={20260--20264},
+  year={2011},
+  publisher={National Academy of Sciences}
+}
+
+@techreport{fao2021impact,
+  title={The Impact of Disasters and Crises on Agriculture and Food Security: 2021},
+  author={{Food and Agriculture Organization of the United Nations}},
+  year={2021},
+  institution={FAO},
+  address={Rome}
+}
+
+@article{savary2019global,
+  title={The global burden of pathogens and pests on major food crops},
+  author={Savary, Serge and Willocquet, Laetitia and Pethybridge, Sarah J and Esker, Paul and McRoberts, Neil and Nelson, Andy},
+  journal={Nature Ecology and Evolution},
+  volume={3},
+  number={3},
+  pages={430--439},
+  year={2019},
+  publisher={Nature Publishing Group}
+}
+
+@article{strange2005plant,
+  title={Plant disease: A threat to global food security},
+  author={Strange, Richard N and Scott, Peter R},
+  journal={Annual Review of Phytopathology},
+  volume={43},
+  pages={83--116},
+  year={2005},
+  publisher={Annual Reviews}
+}
+
+@book{agrios2005plant,
+  title={Plant Pathology},
+  author={Agrios, George N},
+  edition={5th},
+  year={2005},
+  publisher={Elsevier Academic Press},
+  address={Burlington, MA}
+}
+
+@article{oerke2006crop,
+  title={Crop losses to pests},
+  author={Oerke, E-C},
+  journal={The Journal of Agricultural Science},
+  volume={144},
+  number={1},
+  pages={31--43},
+  year={2006},
+  publisher={Cambridge University Press}
+}
+
+% ---- Our group ----
+
+@inproceedings{natij2024plant,
+  title={Plant Disease Recognition: A Comprehensive Mini Review},
+  author={Natij, Youssef and Maafiri, Ayyad and El Karch, Hajar and Himeur, Yassine and Chougdali, Khalid and Mezouari, Abdelkader},
+  booktitle={2024 11th International Conference on Wireless Networks and Mobile Communications (WINCOM)},
+  pages={1--8},
+  year={2024},
+  organization={IEEE}
+}
+
+@article{maafiri2021deepwtpca,
+  title={{DeepWTPCA-L1}: A new deep face recognition model based on {WTPCA-L1} norm features},
+  author={Maafiri, Ayyad and Elharrouss, Omar and Rfifi, Saad and Al-Maadeed, Somaya Ali and Chougdali, Khalid},
+  journal={IEEE Access},
+  volume={9},
+  pages={65091--65100},
+  year={2021},
+  publisher={IEEE}
+}
+
+@article{maafiri2021robust,
+  title={Robust face recognition based on a new Kernel-{PCA} using {RRQR} factorization},
+  author={Maafiri, Ayyad and Chougdali, Khalid},
+  journal={Intelligent Data Analysis},
+  volume={25},
+  number={5},
+  pages={1233--1245},
+  year={2021},
+  publisher={IOS Press}
+}
+
+% ---- Metrics / evaluation ----
+
+@article{sokolova2009systematic,
+  title={A systematic analysis of performance measures for classification tasks},
+  author={Sokolova, Marina and Lapalme, Guy},
+  journal={Information Processing and Management},
+  volume={45},
+  number={4},
+  pages={427--437},
+  year={2009},
+  publisher={Elsevier}
+}
+
+@article{powers2011evaluation,
+  title={Evaluation: From precision, recall and {F}-measure to {ROC}, informedness, markedness and correlation},
+  author={Powers, David Martin Ward},
+  journal={Journal of Machine Learning Technologies},
+  volume={2},
+  number={1},
+  pages={37--63},
+  year={2011}
+}
+
+% ---- Agriculture-specific AI surveys ----
+
+@article{kamilaris2018deep,
+  title={Deep learning in agriculture: A survey},
+  author={Kamilaris, Andreas and Prenafeta-Boldu, Francesc X},
+  journal={Computers and Electronics in Agriculture},
+  volume={147},
+  pages={70--90},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{liakos2018machine,
+  title={Machine learning in agriculture: A review},
+  author={Liakos, Konstantinos G and Busato, Patrizia and Moshou, Dimitrios and Pearson, Simon and Bochtis, Dionysis},
+  journal={Sensors},
+  volume={18},
+  number={8},
+  pages={2674},
+  year={2018},
+  publisher={MDPI}
+}
+
+@article{boulent2019convolutional,
+  title={Convolutional neural networks for the automatic identification of plant diseases},
+  author={Boulent, Justine and Foucher, Samuel and Theau, Jerome and St-Charles, Pierre-Luc},
+  journal={Frontiers in Plant Science},
+  volume={10},
+  pages={941},
+  year={2019},
+  publisher={Frontiers}
+}
+
+@article{ngugi2021recent,
+  title={Recent advances in image processing techniques for automated leaf pest and disease recognition -- A review},
+  author={Ngugi, Lawrence C and Abelwahab, Moataz and Abo-Zahhad, Mohammed},
+  journal={Information Processing in Agriculture},
+  volume={8},
+  number={1},
+  pages={27--51},
+  year={2021},
+  publisher={Elsevier}
+}
+
+% ---- Class imbalance ----
+
+@article{he2009learning,
+  title={Learning from imbalanced data},
+  author={He, Haibo and Garcia, Edwardo A},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  volume={21},
+  number={9},
+  pages={1263--1284},
+  year={2009},
+  publisher={IEEE}
+}
+
+% ---- Reduced-order modelling ----
+
+@book{benner2017model,
+  title={Model Reduction of Parametrized Systems},
+  author={Benner, Peter and Ohlberger, Mario and Cohen, Albert and Willcox, Karen},
+  year={2017},
+  publisher={Springer},
+  series={MS and A -- Modeling, Simulation and Applications},
+  volume={17}
+}
+
+% ---- Additional specific references ----
+
+@article{prasad2016multi,
+  title={Multi-resolution mobile vision system for plant leaf disease diagnosis},
+  author={Prasad, Shitala and Peddoju, Sateesh K and Ghosh, Debashis},
+  journal={Signal, Image and Video Processing},
+  volume={10},
+  number={2},
+  pages={379--388},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{pydipati2006identification,
+  title={Identification of citrus disease using color texture features and discriminant analysis},
+  author={Pydipati, R and Burks, TF and Lee, WS},
+  journal={Computers and Electronics in Agriculture},
+  volume={52},
+  number={1-2},
+  pages={49--59},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@inproceedings{anthonys2009image,
+  title={An image recognition system for crop disease identification of paddy fields in Sri Lanka},
+  author={Anthonys, G and Wickramarachchi, N},
+  booktitle={2009 International Conference on Industrial and Information Systems (ICIIS)},
+  pages={403--407},
+  year={2009},
+  organization={IEEE}
+}
+
+@article{afifi2020convolutionalneuralnetwork,
+  title={Convolutional Neural Network for Automatic Identification of Plant Diseases with Limited Data},
+  author={Afifi, A and Alhumam, Abdulaziz and Abdelwahab, A},
+  journal={Plants},
+  volume={10},
+  number={1},
+  pages={28},
+  year={2020},
+  publisher={MDPI}
+}
+
+@article{neelakantan2021analyzing,
+  title={Analyzing the best machine learning algorithm for plant disease classification},
+  author={Neelakantan, P},
+  journal={Materials Today: Proceedings},
+  pages={2214--7853},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{shrivastava2021rice,
+  title={Rice plant disease classification using color features: A machine learning paradigm},
+  author={Shrivastava, Vimal K and Pradhan, Monoj K},
+  journal={Journal of Plant Pathology},
+  volume={103},
+  number={1},
+  pages={17--26},
+  year={2021},
+  publisher={Springer}
+}
+
+@article{wiesner2019assessment,
+  title={Millimeter-level plant disease detection from aerial photographs via deep learning and crowdsourced data},
+  author={Wiesner-Hanks, Tyler and Stewart, Ethan L and Kaczmar, Nicholas and DeChant, Campbell and Wu, Hodan and Nelson, Rebecca J and Lipson, Hod and Gore, Michael A},
+  journal={Frontiers in Plant Science},
+  volume={10},
+  pages={1550},
+  year={2019},
+  publisher={Frontiers}
+}
+
+@article{bhagat2024advancing,
+  title={Advancing real-time plant disease detection: A lightweight deep learning approach and novel dataset for pigeon pea crop},
+  author={Bhagat, Sandesh and Kokare, Manesh and Haswani, Vineet and Hambarde, Praful and Taori, Trupti and Ghante, PH and Patil, DK},
+  journal={Smart Agricultural Technology},
+  volume={7},
+  pages={100408},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{ullah2023effimob,
+  title={{EffiMob-Net}: A Deep Learning-Based Hybrid Model for Detection and Identification of Tomato Diseases Using Leaf Images},
+  author={Ullah, Zahid and Alsubaie, Najah and Jamjoom, Mona and Alajmani, Samah H and Saleem, Farrukh},
+  journal={Agriculture},
+  volume={13},
+  number={3},
+  pages={737},
+  year={2023},
+  publisher={MDPI}
+}
+
+@article{dogra2023deep,
+  title={Deep learning model for detection of brown spot rice leaf disease with smart agriculture},
+  author={Dogra, Roopali and Rani, Shalli and Singh, Aman and Albahar, Marwan Ali and Barrera, Alina E and Alkhayyat, Ahmed},
+  journal={Computers and Electrical Engineering},
+  volume={109},
+  pages={108659},
+  year={2023},
+  publisher={Elsevier}
+}
+
+@article{salamai2023enhancing,
+  title={Enhancing mango disease diagnosis through eco-informatics: A deep learning approach},
+  author={Salamai, Abdullah Ali},
+  journal={Ecological Informatics},
+  volume={77},
+  pages={102216},
+  year={2023},
+  publisher={Elsevier}
+}

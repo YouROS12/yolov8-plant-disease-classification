@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# Data artifacts
+*.npy
+*.joblib
+*.pkl
+*.h5
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.spl
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# OS / IDE
+*.DS_Store
+.vscode/
+.idea/
+.jupyter_runtime/
+*.ipynb_checkpoints/
+
+# Project-specific
+plantwild_temp/
+reviewers_suggestion_paper1/
