@@ -87,14 +87,14 @@ def plot_backbone_comparison():
     # From final_results_summary.csv
     data = {
         # (Backbone, Compression, Label_Set): (Accuracy, F1)
-        ('EfficientNet-B0', 'IPCA', '19 Classes'): (0.6823, 0.7047),
-        ('EfficientNet-B0', 'IPCA', '11 Classes'): (0.7053, 0.7065),
-        ('EfficientNet-B0', 'SVD',  '19 Classes'): (0.6593, 0.6842),
-        ('EfficientNet-B0', 'SVD',  '11 Classes'): (0.6797, 0.6849),
-        ('ResNet50',        'IPCA', '19 Classes'): (0.6623, 0.6813),
-        ('ResNet50',        'IPCA', '11 Classes'): (0.6827, 0.6785),
-        ('ResNet50',        'SVD',  '19 Classes'): (0.5963, 0.6179),
-        ('ResNet50',        'SVD',  '11 Classes'): (0.6107, 0.6188),
+        ('EfficientNet-B0', 'IPCA', '19 Classes'): (0.7002, 0.6719),
+        ('EfficientNet-B0', 'IPCA', '11 Classes'): (0.7687, 0.7598),
+        ('EfficientNet-B0', 'SVD',  '19 Classes'): (0.6942, 0.6660),
+        ('EfficientNet-B0', 'SVD',  '11 Classes'): (0.7666, 0.7544),
+        ('ResNet50',        'IPCA', '19 Classes'): (0.8045, 0.7959),
+        ('ResNet50',        'IPCA', '11 Classes'): (0.8505, 0.8434),
+        ('ResNet50',        'SVD',  '19 Classes'): (0.8041, 0.7934),
+        ('ResNet50',        'SVD',  '11 Classes'): (0.8505, 0.8411),
         ('YOLOv8m',         'IPCA', '19 Classes'): (0.8654, 0.8634),
         ('YOLOv8m',         'IPCA', '11 Classes'): (0.8752, 0.8820),
         ('YOLOv8m',         'SVD',  '19 Classes'): (0.8603, 0.8538),
@@ -215,10 +215,10 @@ def plot_label_engineering():
     backbones = ['EfficientNet-B0', 'ResNet50', 'YOLOv8m']
 
     # IPCA results from final_results_summary.csv
-    acc_19 = [68.23, 66.23, 86.54]
-    acc_11 = [70.53, 68.27, 87.52]
-    f1_19  = [0.7047, 0.6813, 0.8634]
-    f1_11  = [0.7065, 0.6785, 0.8820]
+    acc_19 = [70.02, 80.45, 86.54]
+    acc_11 = [76.87, 85.05, 87.52]
+    f1_19  = [0.6719, 0.7959, 0.8634]
+    f1_11  = [0.7598, 0.8434, 0.8820]
 
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
 
@@ -281,8 +281,8 @@ def plot_training_time():
     """Bar chart comparing SVC training times across backbones."""
     # From final_results_summary.csv (IPCA, 11-class)
     backbones = ['EfficientNet-B0\n+ IPCA', 'ResNet50\n+ IPCA', 'YOLOv8m\n+ IPCA']
-    times = [37.75, 40.45, 30.77]  # seconds
-    accs  = [70.53, 68.27, 87.52]
+    times = [3.35, 0.66, 26.75]  # seconds
+    accs  = [76.87, 85.05, 87.52]
     colors_bars = [EFFNET_COLOR, RESNET_COLOR, YOLO_COLOR]
 
     fig, ax = plt.subplots(figsize=(7, 4.5))
